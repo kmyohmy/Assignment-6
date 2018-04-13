@@ -13,23 +13,23 @@
 //daysInMonth(2, 2009); // 28
 //daysInMonth(2, 2008); // 29
 
-//STEP 2
-//var date = window.prompt("Please enter a date formatted like MM/DD/YYYY");
-//var month = (date.charAt(0)) + (date.charAt(1));
-//window.console.log(month);
-////UP PART WORKS
-//
-//if (month.charAt(0) === "0") {
-//	var singledigitmonth = month.slice(0, 1);
-//	window.console.log(singledigitmonth);
-//} else if (month.charAt(1) === "1") {
-//	var month = parseFloat(month);
-//	
-//	window.alert("The  ")
-//} else {
-//	window.alert("You entered something incorrectly!");
-//}
-//
+STEP 2
+var date = window.prompt("Please enter a date formatted like MM/DD/YYYY");
+var month = (date.charAt(0)) + (date.charAt(1));
+window.console.log(month);
+//UP PART WORKS
+
+if (month.charAt(0) === "0") {
+	var singledigitmonth = month.slice(0, 1);
+	window.console.log(singledigitmonth);
+} else if (month.charAt(1) === "1") {
+	var month = parseFloat(month);
+	
+	window.alert("The  ")
+} else {
+	window.alert("You entered something incorrectly!");
+}
+
 
 //STEP 3 
 //var date = new Date();

@@ -1,16 +1,16 @@
-///*eslint-env browser*/
-////
-////STEP 1
-var origstring = window.prompt("Plaease enter one word");
-
-var arguments = origstring.length;
-var alphabetical = origstring.split('');
-window.console.log(alphabetical);
-alphabetical = alphabetical.sort().join('');
-
-window.alert('Here is that word in alphabetical order: ' + alphabetical);
-//////STEP 2
+/////*eslint-env browser*/
+//////
+//////STEP 1
+//var origstring = window.prompt("Plaease enter one word");
 //
+//var arguments = origstring.length;
+//var alphabetical = origstring.split('');
+//window.console.log(alphabetical);
+//alphabetical = alphabetical.sort().join('');
+//
+//window.alert('Here is that word in alphabetical order: ' + alphabetical);
+////////STEP 2
+////
 //var string = window.prompt("Plaease enter a phrase all lowercase");
 //
 //var words = string.split(' ');
@@ -19,10 +19,15 @@ window.alert('Here is that word in alphabetical order: ' + alphabetical);
 //
 //var i;
 //for (i = 0; i < words.length; i += 1) {
-//	var uppercased = words[i].toString().charAt(0).toUpperCase;
-//
-//	window.console.log(uppercased);
+//	var orig = words[i].charAt (0);
+//	var temp = words[i].charAt(0)
+//	temp = temp.toString();
+//	temp = temp.toUpperCase();
+//	orig = temp;
+//	window.console.log(temp);
+//	
 //}
+//window.console.log(words);
 
 ////STEP 3
 //
